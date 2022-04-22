@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "module": "commonjs"
+        "module": "commonjs",
+        "lib": [
+            "es2016",
+            "dom"
+        ]
     },
     "exclude": [
         "node_modules"
